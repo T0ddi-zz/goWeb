@@ -1,23 +1,18 @@
 package main
 
-import (
-	"fmt"
-	"os"
-)
+import "fmt"
 
 func main() {
-	// UNCOMMENT & FIX THIS CODE
-	//count := len(os.Args) - 1
+	// UNCOMMENT THE CODE BELOW:
 
-	l := len(os.Args) - 1
-	// UNCOMMENT IT & THEN DO NOT TOUCH THIS CODE
-	fmt.Println("There are", l, "peolpe!")
-	fmt.Println("Hello great", os.Args[1], "!")
-	fmt.Println("Hello great", os.Args[2], "!")
-	fmt.Println("Hello great", os.Args[3], "!")
-	fmt.Println("Hello great", os.Args[4], "!")
-	fmt.Println("Hello great", os.Args[5], "!")
-	//  Nice to meet you all
+	var (
+		perimeter     int
+		width, height = 5, 6
+	)
 
-	fmt.Println("Nice to meet you all")
+	perimeter = (2 * width) + (2 * height)
+
+	fmt.Println(perimeter)
+
+	// ADD YOUR CODE BELOW
 }
